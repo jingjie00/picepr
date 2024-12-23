@@ -55,13 +55,20 @@ PICEPR effectively reduces hallucination, mitigates loss-in-the-middle phenomena
 ### Prerequisites
 - Python 3.8+
 - Required libraries: 
-  ```bash
-  pip install -r requirements.txt
-  ```
+    ```bash
+    pip install -r requirements.txt
+    ```
+    or
+    ```bash
+    conda env create -f environment.yml
+    conda activate picepr_env
+    ```
+
 
 ### Running the Pipelines
 1. **Content Pipeline**:
-    ```cd ContentPipeline
+    ```bash
+    cd ContentPipeline
     ```
 2. **Embeddings Pipeline**:
     ```bash
