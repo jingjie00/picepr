@@ -30,7 +30,7 @@ Our research demonstrates that even with limited fine-tuning, LLMs can act as ef
 - **Findings**: Fine-tuning a decoder (generative model) does not significantly improve results. However, effective prompting can leverage the decoder’s capabilities for accurate personality classification. In contrast, fine-tuning encoders on limited datasets struggles to generalize effectively. Generative models enhance encoder capabilities for encoding personality information robustly.
 
 ### RQ2: How does PICEPR address common challenges?
-PICEPR effectively reduces hallucination, mitigates loss-in-the-middle phenomena, and consistently delivers accurate outputs even with less advanced LLMs.
+- PICEPR effectively reduces hallucination, mitigates loss-in-the-middle phenomena, and consistently delivers accurate outputs even with less advanced LLMs.
 
 ### RQ3: How can LLMs mitigate class imbalance in personality traits?
 - LLMs serve as intermediate modules for content analysis, inference, and generating balanced training data.The decoder's ability to address natural imbalances in personality trait distributions makes it a powerful tool for personality classification.
