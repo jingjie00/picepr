@@ -91,5 +91,5 @@ The datasets used in this project include:
 - [Kaggle MBTI Dataset](https://huggingface.co/datasets/jingjietan/kaggle-mbti)
 
 ---
-Research Resources
+## Research Resources
 [https://research.jingjietan.com/?q=PICEPR](https://research.jingjietan.com/?q=PICEPR)
